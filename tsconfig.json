@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"checkJs": true,
+		"lib": [
+			"es2017",
+			"dom",
+			"esnext.array"
+		],
+		"module": "ES2015",
+		"moduleResolution": "node",
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es2017"
+	},
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}

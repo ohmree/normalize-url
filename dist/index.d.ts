@@ -1,4 +1,4 @@
-export interface Options {
+interface Options {
   /**
 	@default 'http:'
 
@@ -264,4 +264,6 @@ normalizeUrl('//www.sindresorhus.com:80/../baz?b=bar&a=foo');
 //=> 'http://sindresorhus.com/baz?a=foo&b=bar'
 ```
 */
-export default function normalizeUrl(url: string, options?: Options): string;
+declare function normalizeUrl(url: string, options?: Options): string;
+
+export { Options, normalizeUrl as default };
