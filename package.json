@@ -17,12 +17,14 @@
         "node": ">=12.20"
     },
     "scripts": {
-        "build": "tsup index.js",
+        "build": "tsup index.js --format cjs --out-dir .",
         "test": "xo && c8 ava && tsd"
     },
     "types": "./index.d.ts",
     "files": [
-        "dist"
+        "index.js",
+        "index.cjs",
+        "index.d.ts"
     ],
     "keywords": [
         "normalize",
