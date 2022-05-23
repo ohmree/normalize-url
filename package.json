@@ -9,10 +9,8 @@
         "url": "https://github.com/ohmree"
     },
     "type": "module",
-    "exports": {
-        "import": "./index.js",
-        "require": "./index.cjs"
-    },
+    "module": "./index.js",
+    "main": "./index.cjs",
     "engines": {
         "node": ">=12.20"
     },
